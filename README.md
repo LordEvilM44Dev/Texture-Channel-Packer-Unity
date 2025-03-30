@@ -1,31 +1,31 @@
 # Texture-Channel-Packer-Unity
  Unity tool for packing multiple grayscale textures into a single RGBA output texture
 
-##Overview
+## Overview
 The Unity Texture Combiner is an advanced editor tool that allows you to pack multiple texture channels into a single texture. This is particularly useful for optimizing materials by combining different texture maps (like metallic, smoothness, occlusion, etc.) into a single texture's RGBA channels.
 
-##Features
-Channel Packing: Combine up to 4 textures into one
+## Features
+- Channel Packing: Combine up to 4 textures into one
 
-Flexible Channel Mapping: Map any source channel to any output channel
+- Flexible Channel Mapping: Map any source channel to any output channel
 
-Preset System: Save and load frequently used configurations
+- Preset System: Save and load frequently used configurations
 
-Customizable Output: Control texture size, format, and import settings
+- Customizable Output: Control texture size, format, and import settings
 
-Real-time Preview: See results before exporting
+- Real-time Preview: See results before exporting
 
-Texture Resizing: Automatic resizing of input textures
+- Texture Resizing: Automatic resizing of input textures
 
-##Installation
-Clone or download this repository
+## Installation
+1. Clone or download this repository
 
-Copy the Editor/TextureCombiner folder into your Unity project's Assets folder
+2. Copy the Editor/TextureCombiner folder into your Unity project's Assets folder
 
-The tool will be available under Window > Texture Combiner
+3. The tool will be available under Window > Texture Combiner
 
-##How to Use
-###Basic Usage
+## How to Use
+### Basic Usage
 Open the Texture Combiner window (Window > Texture Combiner)
 
 Assign textures to the available slots
@@ -40,7 +40,7 @@ Set the output path (default: Assets/CombinedTexture.png)
 
 Click "Combine Textures" to generate the packed texture
 
-###Presets
+### Presets
 To save a configuration:
 
 Set up your textures and channel mappings
@@ -55,7 +55,7 @@ Select a preset from the dropdown menu
 
 The texture assignments and channel mappings will be restored
 
-###Settings
+### Settings
 Texture Combiner settings can be accessed and modified through the included ScriptableObject asset at:
 Assets/Editor/TextureCombiner/TextureCombinerSettings.asset
 
