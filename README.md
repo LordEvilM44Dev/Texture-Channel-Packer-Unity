@@ -5,40 +5,40 @@
 The Unity Texture Combiner is an advanced editor tool that allows you to pack multiple texture channels into a single texture. This is particularly useful for optimizing materials by combining different texture maps (like metallic, smoothness, occlusion, etc.) into a single texture's RGBA channels.
 
 ## Features
-- Channel Packing: Combine up to 4 textures into one
+Channel Packing: Combine up to 4 textures into one
 
-- Flexible Channel Mapping: Map any source channel to any output channel
+Flexible Channel Mapping: Map any source channel to any output channel
 
-- Preset System: Save and load frequently used configurations
+Preset System: Save and load frequently used configurations
 
-- Customizable Output: Control texture size, format, and import settings
+Customizable Output: Control texture size, format, and import settings
 
-- Real-time Preview: See results before exporting
+Real-time Preview: See results before exporting
 
-- Texture Resizing: Automatic resizing of input textures
+Texture Resizing: Automatic resizing of input textures
 
 ## Installation
-1. Clone or download this repository
+Clone or download this repository
 
-2. Copy the Editor/TextureCombiner folder into your Unity project's Assets folder
+Copy the Editor/TextureCombiner folder into your Unity project's Assets folder
 
-3. The tool will be available under Window > Texture Combiner
+The tool will be available under Window > Texture Combiner
 
 ## How to Use
 ### Basic Usage
-Open the Texture Combiner window (Window > Texture Combiner)
+1. Open the Texture Combiner window (Window > Texture Combiner)
 
-Assign textures to the available slots
+2. Assign textures to the available slots
 
-For each texture, select:
+3. For each texture, select:
 
-Which output channel (R, G, B, or A) to pack into
+- Which output channel (R, G, B, or A) to pack into
 
-Which source channel (R, G, B, A, grayscale, or average) to use
+- Which source channel (R, G, B, A, grayscale, or average) to use
 
-Set the output path (default: Assets/CombinedTexture.png)
+4. Set the output path (default: Assets/CombinedTexture.png)
 
-Click "Combine Textures" to generate the packed texture
+5. Click "Combine Textures" to generate the packed texture
 
 ### Presets
 To save a configuration:
