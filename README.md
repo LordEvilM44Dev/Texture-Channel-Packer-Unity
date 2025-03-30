@@ -32,13 +32,13 @@ The tool will be available under `` Window > Texture Combiner``
 
 3. For each texture, select:
 
- - Which output channel (R, G, B, or A) to pack into
+   - Which output channel (R, G, B, or A) to pack into
 
- - Which source channel (R, G, B, A, grayscale, or average) to use
+   - Which source channel (R, G, B, A, grayscale, or average) to use
 
-4. Set the output path (default: ``Assets/CombinedTexture.png``)
+5. Set the output path (default: ``Assets/CombinedTexture.png``)
 
-5. Click "Combine Textures" to generate the packed texture
+6. Click "Combine Textures" to generate the packed texture
 
 ### Presets
 1. To save a configuration:
