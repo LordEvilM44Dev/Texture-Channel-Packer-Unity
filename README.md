@@ -5,28 +5,28 @@
 The Unity Texture Combiner is an advanced editor tool that allows you to pack multiple texture channels into a single texture. This is particularly useful for optimizing materials by combining different texture maps (like metallic, smoothness, occlusion, etc.) into a single texture's RGBA channels.
 
 ## Features
-Channel Packing: Combine up to 4 textures into one
+**Channel Packing**: Combine up to 4 textures into one
 
-Flexible Channel Mapping: Map any source channel to any output channel
+**Flexible Channel Mapping**: Map any source channel to any output channel
 
-Preset System: Save and load frequently used configurations
+**Preset System**: Save and load frequently used configurations
 
-Customizable Output: Control texture size, format, and import settings
+**Customizable Output**: Control texture size, format, and import settings
 
-Real-time Preview: See results before exporting
+**Real-time Preview**: See results before exporting
 
-Texture Resizing: Automatic resizing of input textures
+**Texture Resizing**: Automatic resizing of input textures
 
 ## Installation
 Clone or download this repository
 
-Copy the Editor/TextureCombiner folder into your Unity project's Assets folder
+Copy the ``Editor/TextureCombiner`` folder into your Unity project's ``Assets`` folder
 
-The tool will be available under Window > Texture Combiner
+The tool will be available under `` Window > Texture Combiner``
 
 ## How to Use
 ### Basic Usage
-1. Open the Texture Combiner window (Window > Texture Combiner)
+1. Open the Texture Combiner window (``Window > Texture Combiner``)
 
 2. Assign textures to the available slots
 
@@ -36,78 +36,78 @@ The tool will be available under Window > Texture Combiner
 
  - Which source channel (R, G, B, A, grayscale, or average) to use
 
-4. Set the output path (default: Assets/CombinedTexture.png)
+4. Set the output path (default: ``Assets/CombinedTexture.png``)
 
 5. Click "Combine Textures" to generate the packed texture
 
 ### Presets
-To save a configuration:
+1. To save a configuration:
 
-Set up your textures and channel mappings
+ - Set up your textures and channel mappings
 
-Enter a name in the "Preset Name" field
+ - Enter a name in the "Preset Name" field
 
-Click "Save Preset"
+ - Click "Save Preset"
 
-To load a preset:
+2. To load a preset:
 
-Select a preset from the dropdown menu
+ - Select a preset from the dropdown menu
 
-The texture assignments and channel mappings will be restored
+ - The texture assignments and channel mappings will be restored
 
 ### Settings
 Texture Combiner settings can be accessed and modified through the included ScriptableObject asset at:
-Assets/Editor/TextureCombiner/TextureCombinerSettings.asset
+```Assets/Editor/TextureCombiner/TextureCombinerSettings.asset```
 
 Key settings include:
 
-Default output texture size
+- Default output texture size
 
-Whether to use largest input texture size
+- Whether to use largest input texture size
 
-Mipmap generation
+- Mipmap generation
 
-Color space (sRGB or Linear)
+- Color space (sRGB or Linear)
 
-Texture import type
+- Texture import type
 
-Filter and wrap modes
+- Filter and wrap modes
 
-Script Overview
+## Script Overview
 The tool consists of four main scripts:
 
-TextureCombinerWindow.cs - Main editor window and functionality
+1. **TextureCombinerWindow.cs** - Main editor window and functionality
 
-TextureCombinerPresets.cs - Preset saving/loading system
+2. **TextureCombinerPresets.cs** - Preset saving/loading system
 
-TextureCombinerSettings.cs - Persistent configuration settings
+3. **TextureCombinerSettings.cs** - Persistent configuration settings
 
-TextureCombinerUtilities.cs - Helper functions
+4. **TextureCombinerUtilities.cs** - Helper functions
 
-Examples
-Common Use Cases
-PBR Material Optimization:
+## Examples
+### Common Use Cases
+1. PBR Material Optimization:
 
-Red: Metallic
+- Red: Metallic
 
-Green: Smoothness
+- Green: Smoothness
 
-Blue: Occlusion
+- Blue: Occlusion
 
-Alpha: Height/Dispalcement
+- Alpha: Height/Dispalcement
 
-Terrain Splat Maps:
+2. Terrain Splat Maps:
 
-Combine multiple grayscale masks into a single RGBA texture
+- Combine multiple grayscale masks into a single RGBA texture
 
-Character Textures:
+3. Character Textures:
 
-Pack subsurface scattering, specular, and other masks into one texture
+- Pack subsurface scattering, specular, and other masks into one texture
 
-Requirements
-Unity 2019.4 or later
+## Requirements
+- Unity 2019.4 or later
 
-No additional packages required
+- No additional packages required
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
