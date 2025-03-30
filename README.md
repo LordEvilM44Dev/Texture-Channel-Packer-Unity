@@ -43,17 +43,17 @@ The tool will be available under `` Window > Texture Combiner``
 ### Presets
 1. To save a configuration:
 
- - Set up your textures and channel mappings
+   - Set up your textures and channel mappings
 
- - Enter a name in the "Preset Name" field
+   - Enter a name in the "Preset Name" field
 
- - Click "Save Preset"
+   - Click "Save Preset"
 
 2. To load a preset:
 
- - Select a preset from the dropdown menu
+   - Select a preset from the dropdown menu
 
- - The texture assignments and channel mappings will be restored
+   - The texture assignments and channel mappings will be restored
 
 ### Settings
 Texture Combiner settings can be accessed and modified through the included ScriptableObject asset at:
@@ -61,17 +61,17 @@ Texture Combiner settings can be accessed and modified through the included Scri
 
 Key settings include:
 
-- Default output texture size
+   - Default output texture size
 
-- Whether to use largest input texture size
+   - Whether to use largest input texture size
 
-- Mipmap generation
+   - Mipmap generation
 
-- Color space (sRGB or Linear)
+   - Color space (sRGB or Linear)
 
-- Texture import type
+   - Texture import type
 
-- Filter and wrap modes
+   - Filter and wrap modes
 
 ## Script Overview
 The tool consists of four main scripts:
@@ -88,26 +88,26 @@ The tool consists of four main scripts:
 ### Common Use Cases
 1. PBR Material Optimization:
 
-- Red: Metallic
+   - Red: Metallic
 
-- Green: Smoothness
+   - Green: Smoothness
 
-- Blue: Occlusion
+   - Blue: Occlusion
 
-- Alpha: Height/Dispalcement
+   - Alpha: Height/Dispalcement
 
 2. Terrain Splat Maps:
 
-- Combine multiple grayscale masks into a single RGBA texture
+   - Combine multiple grayscale masks into a single RGBA texture
 
 3. Character Textures:
 
-- Pack subsurface scattering, specular, and other masks into one texture
+   - Pack subsurface scattering, specular, and other masks into one texture
 
 ## Requirements
-- Unity 2019.4 or later
+   - Unity 2019.4 or later
 
-- No additional packages required
+   - No additional packages required
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
