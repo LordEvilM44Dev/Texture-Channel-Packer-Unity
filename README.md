@@ -18,11 +18,11 @@ The Unity Texture Combiner is an advanced editor tool that allows you to pack mu
 - **Texture Resizing**: Automatic resizing of input textures
 
 ## Installation
-Clone or download this repository
+1. Clone or download this repository
 
-Copy the ``Editor/TextureCombiner`` folder into your Unity project's ``Assets`` folder
+2. Copy the ``Editor/TextureCombiner`` folder into your Unity project's ``Assets`` folder
 
-The tool will be available under `` Window > Texture Combiner``
+3. The tool will be available under `` Window > Texture Combiner``
 
 ## How to Use
 ### Basic Usage
